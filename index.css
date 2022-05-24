@@ -1,4 +1,4 @@
-.header1{
+.header1 {
     background-color: black;
     color: white;
     font-size: 18;
@@ -7,8 +7,12 @@
     text-transform: uppercase;
 }
 
-.para{
+.para {
     color: salmon;
     font-size: 15px;
+    text-align: center;
+}
+h2 {
+    background-color: goldenrod;
     text-align: center;
 }
