@@ -1,0 +1,483 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+/* .body{
+    font-family: 'Akshar', sans-serif;
+} */
+
+.wrapper {
+    margin: auto;
+    width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+    font-family: "Oswald", sans-serif;
+}
+
+p {
+    font-family: "Raleway", sans-serif;
+}
+
+/* header area */
+
+.nav {
+    overflow: auto;
+    width: 85%;
+    margin: 1em auto;
+}
+
+.nav h1 {
+    text-transform: uppercase;
+    width: 50%;
+    float: left;
+}
+
+.nav h1 a {
+    text-decoration: none;
+    color: #c98a75;
+}
+
+.nav ul {
+    width: 50%;
+    float: left;
+    text-align: right;
+    padding-top: 1em;
+    padding-right: 20px;
+}
+
+.nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 1em;
+}
+
+.nav ul a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 700;
+    font-family: "Akshar", sans-serif;
+}
+
+.banner {
+    background-image: url(../images/banner-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 100%;
+    height: 670px;
+}
+
+.banner-tx {
+    position: absolute;
+    top: 50%;
+    left: 7.5ex;
+    transform: translateY(-50%);
+    width: 45%;
+}
+
+.banner-tx h2 {
+    color: #c9b175;
+    font-size: 3em;
+    text-transform: uppercase;
+}
+
+.banner-tx h2 span {
+    color: #865f35;
+}
+
+.banner-tx p {
+    color: white;
+    font-family: "Raleway", sans-serif;
+}
+
+.banner-tx a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 1em;
+    background-color: rgb(67, 56, 42);
+    color: white;
+    font-weight: 700;
+    margin-top: 1em;
+}
+
+.banner-tx a:hover {
+    background-color: rgb(131, 109, 35);
+}
+
+/* ads area */
+
+.ads {
+    width: 85%;
+    margin: 3em auto;
+    overflow: auto;
+}
+
+.ads-item {
+    width: 48.5%;
+    float: left;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 2%;
+    position: relative;
+}
+
+.ads-item1 {
+    margin-right: 3%;
+    background-image: url(../images/ads-img1.jpg);
+}
+
+.ads-item2 {
+    background-image: url(../images/ads-img2.jpg);
+}
+
+.ads-tx {
+    position: absolute;
+    top: 40%;
+    left: 40px;
+    transform: translateY(-50%);
+    width: 40%;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 3px 3px 6px #333;
+}
+
+.ads-tx a {
+    color: white;
+    display: block;
+    font-weight: 700;
+    margin-top: 1em;
+}
+
+.ads-tx h2 {
+    font-size: 2em;
+    line-height: 1.2em;
+}
+
+/* merch area */
+
+.merch {
+    width: 85%;
+    margin: 0em auto;
+}
+
+.section-header {
+    text-align: center;
+    margin-top: 6em;
+    margin-bottom: 2em;
+}
+
+.section-header span {
+    font-weight: 700;
+    font-style: italic;
+    font-family: "Source Serif Pro", serif;
+    color: #c9b175;
+}
+
+.section-header h2 {
+    text-transform: uppercase;
+}
+
+hr {
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+    height: 3px;
+    background-color: #c9b175;
+    border: 0;
+}
+
+.merch-gallery {
+    overflow: auto;
+    margin-top: 2em;
+}
+
+.merch-items {
+    width: 24%;
+    float: left;
+    margin-right: 1%;
+    margin-bottom: 1%;
+}
+
+.merch-items:nth-child(4),
+.merch-items:nth-child(8) {
+    margin-right: 0;
+}
+
+.merch-items img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+/* discount area */
+
+.discount {
+    width: 85;
+    margin: 4em auto;
+    background-image: url(../images/discount-img.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    position: relative;
+}
+
+.discount-tx {
+    color: white;
+
+    text-align: center;
+    width: 50%;
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    /*transform: translate(-50% -50%); */
+}
+
+.discount-tx p {
+    font-style: italic;
+}
+
+.discount-tx h1 {
+    text-transform: uppercase;
+    text-shadow: 3px 3px 6px #333;
+}
+
+.discount-tx a {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(84, 84, 84);
+    background-color: rgba(255, 255, 255, 0.706);
+    padding: 14px 24px;
+    margin-top: 10px;
+}
+
+.discount-tx a:hover {
+    background-color: rgba(255, 255, 255, 0.892);
+    text-shadow: none;
+}
+
+/* sale area */
+
+.sale {
+    width: 85%;
+    margin: 0em auto;
+}
+
+/* ads2 area */
+
+.ads2 {
+    width: 85%;
+}
+
+.ads-item3 {
+    margin-right: 3%;
+    background-image: url(../images/ads-img3.jpg);
+}
+
+.ads-item4 {
+    background-image: url(../images/ads-img4.jpg);
+}
+
+.ads-item5 {
+    margin-right: 3%;
+    margin-top: 3%;
+    background-image: url(../images/ads-img5.jpg);
+}
+
+.ads-item6 {
+    margin-top: 3%;
+    background-image: url(../images/ads-img6.jpg);
+}
+
+.ads2 .ads-item h3 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 800;
+    margin-top: 2em;
+    margin-left: 1em;
+}
+
+.ads2 .ads-item a {
+    margin-left: 1.5em;
+    display: inline-block;
+    padding: 10px;
+}
+
+.ads2 .ads-item a:hover {
+    background-color: rgba(88, 88, 88, 0.496);
+    border: 2px solid white;
+}
+
+/* reservation */
+
+.reservation {
+    width: 85%;
+    margin: 2em auto;
+}
+
+form {
+    overflow: auto;
+}
+
+.form-group {
+    margin-top: 2em;
+    background-color: #f2f2f2;
+    float: left;
+    width: 49.5%;
+    border-radius: 5px;
+    padding: 2em;
+    height: 670px;
+}
+
+.form-group:nth-child(1) {
+    margin-right: 1%;
+}
+
+form label,
+form input,
+form select,
+form textarea {
+    display: inline-block;
+    width: 100%;
+    font-family: "Rale way", sans-serif;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+form label {
+    font-weight: 700;
+    padding: 0;
+    margin-bottom: 0.5em;
+}
+
+.res-time {
+    text-align: center;
+}
+
+.res-time * {
+    width: auto;
+}
+
+form p {
+    margin: 1em;
+    text-align: center;
+    font-weight: 700;
+}
+
+form h3 {
+    text-align: center;
+}
+
+form h3::after {
+    content: "";
+    background-image: url(../images/reservation-cards.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    width: 170px;
+    height: 30px;
+    margin: auto;
+}
+
+.res-agreement * {
+    width: auto;
+}
+
+form input[type="submit"] {
+    background-color: rgb(196, 168, 128);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.submit_btn:hover {
+    background-color: rgb(158, 123, 34);
+    color: white;
+}
+
+/* footer */
+
+.footer {
+    background-image: url(../images/footer-img.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 2em;
+    padding-bottom: 0;
+
+    /* width: 100%;
+    height: 300px;
+    padding: 40px; */
+
+    color: white;
+}
+
+.footer_contents {
+    width: 85%;
+    margin: auto;
+    overflow: auto;
+}
+
+.footer_widgets {
+    width: 24.25%;
+    float: left;
+    margin-right: 1%;
+    margin-bottom: 2em;
+}
+
+.footer_widgets:nth-child(4) {
+    margin-right: 0;
+}
+
+.footer_widgets table {
+    text-transform: capitalize;
+    font-family: "Raleway", sans-serif;
+    text-shadow: 2px 2px 4px rgb(172, 148, 25);
+}
+
+.footer_widgets h3 {
+    /* padding: 10px; */
+    text-transform: uppercase;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-shadow: 3px 3px 6px rgb(255, 213, 0);
+}
+
+.footer_widgets p {
+    color: #dabe78;
+}
+
+.footer_form * {
+    width: auto;
+}
+
+.footer_social {
+    background-color: black;
+    overflow: auto;
+    padding: 1em 7.5%;
+    /* display: inline-block; */
+}
+
+.social_widgets {
+    width: 32.66%;
+    float: left;
+    text-align: center;
+}
+
+.footer_social img {
+    width: 1.5em;
+}
+
+.footer_social h3 {
+    text-transform: uppercase;
+}
